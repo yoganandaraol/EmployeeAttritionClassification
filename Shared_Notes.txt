@@ -1,0 +1,8 @@
+List of unique department values in employee master
+>>> df_emp_master.department.unique()
+
+Department value counts in employee master
+>>> df_emp_master.department.value_counts()
+
+Update Department with correct value
+>>> df_emp_master.department.replace("-IT", "D00-IT", inplace=True)
